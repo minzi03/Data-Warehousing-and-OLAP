@@ -1,0 +1,3 @@
+http://snap.stanford.edu/data/index.html
+https://catalogue.data.gov.bc.ca/dataset?download_audience=Public
+https://www.kaggle.com/datasets
