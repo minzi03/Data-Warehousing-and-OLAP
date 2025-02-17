@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\miynzi\\source\\repos\\SSIS_TMDBMovies\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF1DC2F-DEBC-4491-A71F-8376F7469C49}|SSIS_TMDBMovies.dtproj|C:\\Users\\miynzi\\source\\repos\\SSIS_TMDBMovies\\Package.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{BDF1DC2F-DEBC-4491-A71F-8376F7469C49}|SSIS_TMDBMovies.dtproj|solutionrelative:Package.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Package.dtsx [Design]",
+              "DocumentMoniker": "C:\\Users\\miynzi\\source\\repos\\SSIS_TMDBMovies\\Package.dtsx",
+              "RelativeDocumentMoniker": "Package.dtsx",
+              "ToolTip": "C:\\Users\\miynzi\\source\\repos\\SSIS_TMDBMovies\\Package.dtsx [Design]",
+              "RelativeToolTip": "Package.dtsx [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd\u002BUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAT0SURBVEhLvVZdaFxVEJ69dzdJ89MmaW2aRFNqNrEGorZNbWtb/MFgQ2xjBH2oYB\u002BLCD74JIKCL2KoPhREJGDAFqQW8hSsgggWWoRI01QNNLUN\u002BdmYpEnu7r3Zn\u002Bzu/XG\u002Bc\u002B7evUmzq3nphNm552fmm5kzZ07ooZLjOAH3k54\u002BcKT7g0\u002B\u002BGCoJqmTZNtmOTY7lkOU4ZFuWlDzvWDZZYF43bYcy6TQtLmk/Xxm88OHYyLWbts2LRcgHeLi7f\u002BDi0MH2ZjEWagLEBeWxySzG7AgLAXjn7hQNj9yiyPziT1cGv/3o3tjvN1hR2NiIVFdSXf2jrSd7ek831tWKscKuKPyjqgEKqgqFggqVhhQqK1GovEylCuaqLSpFYzoFS4K0c3tN2DBL9xh6bMzQ5ueFkQ1IcSXSK7zfDGG3xTq6kaKabTX0ZGtL5\u002BPtR883tnQclDseJA8QBND/S9hpc2odzvX14VEa\u002BG6QRkb/oPTq6rEdjeE\u002BuetB8gDtTUQIv7AVcm94N53uPUHHnztMHfv205FDh7AlLDZuQPmUsgVUY46yXCGZdQyHkIU0xhmLUlmeYxPtbc301uud9M6ZHjrR\u002BbJrYWMKupJThMrLR3hu8G\u002BKZXwZt0x682g97WveRn2Xxylhe6pi7VRHHbU0VLLT7lwBWlM0uH8\u002BTDJ37fHYrqoVe3JZ9685ldXymjAYiqgYrQEUF9sdb0RYK3TOOBLcXThdjPI5YzuoumKIsFWoj0AV0W0qQnNdhOrCpMdKPMoFIisZe/xrgYTuphTrUrcQea2tpe2Z7s/P9w91vXCAO0uAkmlLGofXrvcq2g/7GE\u002BbXCfsIC\u002BIqPjsFOF6gEbHZ\u002BmzTz\u002BO3Pr1UhNm1pMXIYyjKcNDRFAm2phKJeCQSqVBVGWAI7EpxNZDbrsLcbPHN94Bk52AjWK0JqXylcBdI4osp2jqfpKmF5hZziwlaWXVFEZx1ohMOomj4G/Wkc3DNViA8kXDcQlFly/\u002BMkNfX12m/msafXNdo4Grc3R3NsFA8pVAOsU1YAmQXIqhW4x8EUIJ75z0FGRtb/DYKd8qohJAAOBvCSajNVlHzDNwMcp3GlYQDyuUCnQLOC/WOSQhWWcumqLbEcM7Ct2w6KnjvbW793Z8D52/bt\u002BnieFLfZScHsHY19rcM2CvLe\u002BVXEtInWC3o0AaKZOqyxVqe6xKRGs7nIn9O8tN034jxdX81eUxmrj54wXXhO8MESHSw8i4CvgLRsY9VvRF4RDuaq44kD1EhQe5uoIrmR3NZrIU1VP8H4BBt\u002B9pNL\u002BUcAEk\u002Ba4Fp8nM3S\u002Bis13N9H5PK733apje7QrT2VfCFN5VKdKdNXHJsZ\u002BZx4gsxRVsJDKkrzAbadLjDBzPUDrLG3yULxpmWd5upAwsCwNniogwlqn05pFe3o8okwyoM2AMoIksGQwGzmR4k498VQojSJkr2YjoJCxRHGI\u002BJwXLdTgC3TifZYyjM1YkmA7AJAOidH2UB2RFk91e0BI0EYnSJHhWczlKU4I1ms7x3DLNzGmkxeLsoE3xJAMhMkQIQPGdFQ\u002B5n7xeWt/U2v3iqTNDAUXlbmKJNCHRkIIxEt9iQUh8bn2kiV56/hgRF8vk3IoAizGvuIBjExr989u5k6T/\u002BQP0PEA1GKoo3VLR8F\u002B9cD0Fdzz7WuUTb/fBgSw7Kq\u002BOrAVIpNS686UH\u002BJCJ6F8hIdQVz9xykgAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-02-13T16:47:11.726Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
