@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SSRS_TMDBMovies", "SSRS_TMDBMovies.rptproj", "{917465CE-81E4-4455-8641-34FC185A9BFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{917465CE-81E4-4455-8641-34FC185A9BFC}.Debug|Default.ActiveCfg = Debug
+		{917465CE-81E4-4455-8641-34FC185A9BFC}.Debug|Default.Build.0 = Debug
+		{917465CE-81E4-4455-8641-34FC185A9BFC}.Debug|Default.Deploy.0 = Debug
+		{917465CE-81E4-4455-8641-34FC185A9BFC}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{917465CE-81E4-4455-8641-34FC185A9BFC}.DebugLocal|Default.Build.0 = DebugLocal
+		{917465CE-81E4-4455-8641-34FC185A9BFC}.Release|Default.ActiveCfg = Release
+		{917465CE-81E4-4455-8641-34FC185A9BFC}.Release|Default.Build.0 = Release
+		{917465CE-81E4-4455-8641-34FC185A9BFC}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

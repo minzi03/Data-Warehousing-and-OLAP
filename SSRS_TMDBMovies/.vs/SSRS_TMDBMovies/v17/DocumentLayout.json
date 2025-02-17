@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\miynzi\\source\\repos\\SSRS_TMDBMovies\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{917465CE-81E4-4455-8641-34FC185A9BFC}|SSRS_TMDBMovies.rptproj|C:\\Users\\miynzi\\source\\repos\\SSRS_TMDBMovies\\query3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{917465CE-81E4-4455-8641-34FC185A9BFC}|SSRS_TMDBMovies.rptproj|solutionrelative:query3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{917465CE-81E4-4455-8641-34FC185A9BFC}|SSRS_TMDBMovies.rptproj|C:\\Users\\miynzi\\source\\repos\\SSRS_TMDBMovies\\query12.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{917465CE-81E4-4455-8641-34FC185A9BFC}|SSRS_TMDBMovies.rptproj|solutionrelative:query12.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{917465CE-81E4-4455-8641-34FC185A9BFC}|SSRS_TMDBMovies.rptproj|C:\\Users\\miynzi\\source\\repos\\SSRS_TMDBMovies\\query13.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{917465CE-81E4-4455-8641-34FC185A9BFC}|SSRS_TMDBMovies.rptproj|solutionrelative:query13.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "query3.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\miynzi\\source\\repos\\SSRS_TMDBMovies\\query3.rdl",
+              "RelativeDocumentMoniker": "query3.rdl",
+              "ToolTip": "C:\\Users\\miynzi\\source\\repos\\SSRS_TMDBMovies\\query3.rdl [Design]",
+              "RelativeToolTip": "query3.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-17T08:58:35.46Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "query12.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\miynzi\\source\\repos\\SSRS_TMDBMovies\\query12.rdl",
+              "RelativeDocumentMoniker": "query12.rdl",
+              "ToolTip": "C:\\Users\\miynzi\\source\\repos\\SSRS_TMDBMovies\\query12.rdl [Design]",
+              "RelativeToolTip": "query12.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-17T08:07:31.034Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "query13.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\miynzi\\source\\repos\\SSRS_TMDBMovies\\query13.rdl",
+              "RelativeDocumentMoniker": "query13.rdl",
+              "ToolTip": "C:\\Users\\miynzi\\source\\repos\\SSRS_TMDBMovies\\query13.rdl [Design]",
+              "RelativeToolTip": "query13.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-16T16:19:34.713Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
