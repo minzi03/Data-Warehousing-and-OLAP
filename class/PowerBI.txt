@@ -1,0 +1,4 @@
+Link tài liệu tham khảo PowerBI của Microsoft
+https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-report-visualizations  
+
+Bên cạnh mục Visualizations giới thiệu các hình thức biểu diễn có mục Create reports hướng dẫn tạo Report bằng Power BI.
