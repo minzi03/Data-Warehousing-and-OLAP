@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_TMDBMovies</Database>
+    <Server>DUY-03</Server>
+    <ConnectionString>Data Source=DUY-03;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>jrnOXKzWZddUyqO5e+iENhwvtbI=14/02/2025 9:47:26 pm14/02/2025 9:47:26 pm</TimeStamp>
+        <ID>
+          <String>TMDB Movies</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>hQ6sU2kVqpAdYMXj2G5YzWljz8Q=14/02/2025 9:47:35 pm14/02/2025 9:47:34 pm</TimeStamp>
+        <ID>
+          <String>TMDB Movies</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UbOceCMciNJCRsV/NWlL3fe5oiU=14/02/2025 9:53:12 pm14/02/2025 9:48:50 pm</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ck3EsGoVFXFqC7EoiY5jPRsSZFM=14/02/2025 9:53:12 pm14/02/2025 9:50:08 pm</TimeStamp>
+        <ID>
+          <String>Dim Company</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VvKdnQ6+nP6wa5+u+r2ZFjOtn14=14/02/2025 9:53:12 pm14/02/2025 9:50:08 pm</TimeStamp>
+        <ID>
+          <String>Dim Language</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Fx0IvFT83aeKqlhTP/31f6LJRHA=14/02/2025 9:53:12 pm14/02/2025 9:50:08 pm</TimeStamp>
+        <ID>
+          <String>Dim Runtime</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JZ1pcrQlt5kYzJFqQP7oiBrLZZg=14/02/2025 9:53:12 pm14/02/2025 9:50:08 pm</TimeStamp>
+        <ID>
+          <String>Dim Movie</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nZEkD3XapdxutvlNZ2pJfZyxUTE=14/02/2025 9:53:12 pm14/02/2025 9:50:08 pm</TimeStamp>
+        <ID>
+          <String>Dim Adult</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>iuR0MHDLcJPLuLhuu2yfRBp3WvM=14/02/2025 9:53:12 pm14/02/2025 9:50:08 pm</TimeStamp>
+        <ID>
+          <String>Dim Genre</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>s8pMiIKMCZRm0zqE5WEfXXST6jE=14/02/2025 9:53:12 pm14/02/2025 9:50:08 pm</TimeStamp>
+        <ID>
+          <String>Dim Country</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Fi4Ql4Q+UdXZR4wBeHBWqpxz1UA=15/02/2025 11:40:26 am14/02/2025 9:50:08 pmdh2pWNIrcco7VoSsBnGHu2RZZa8=14/02/2025 9:50:08 pm14/02/2025 9:50:08 pm</TimeStamp>
+        <ID>
+          <String>TMDB Movies</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>mUWlJT/J0Gy31CyMF44i5KZ+wXQ=14/02/2025 9:45:47 pm14/02/2025 9:45:47 pm</TimeStamp>
+      <ID>
+        <String>SSAS_TMDBMovies</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-02-15T04:40:28.223333Z</LastDeployed>
+</DeploymentSnapshot>

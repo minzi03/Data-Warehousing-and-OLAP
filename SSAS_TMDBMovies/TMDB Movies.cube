@@ -1,0 +1,919 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="73a9f246-411f-4683-8359-a51274e042f1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>TMDB Movies</ID>
+  <Name>TMDB Movies</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="36" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7978" scrolltop="-2604" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="80" x="35560" y="19383" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01a300009001153e0100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Adult" left="8496" top="15456" logicalid="18" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1618" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000052060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Adult" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Movie" left="8054" top="0" logicalid="19" controlid="2" masterid="0" hint1="0" hint2="0" width="3477" height="3508" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000950d0000b40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Movie" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Company" left="10844" top="10871" logicalid="20" controlid="3" masterid="0" hint1="0" hint2="0" width="3946" height="1618" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00006a0f000052060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Company" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Date" left="20" top="9926" logicalid="21" controlid="4" masterid="0" hint1="0" hint2="0" width="3024" height="3130" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d00b00003a0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Genre" left="44" top="5908" logicalid="22" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="1618" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000052060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Genre" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Language" left="2358" top="1890" logicalid="23" controlid="6" masterid="0" hint1="0" hint2="0" width="3296" height="1618" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000e00c000052060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Language" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact" left="5444" top="6982" logicalid="24" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Fact" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Runtime" left="10844" top="6475" logicalid="25" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="1996" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000cc070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Runtime" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Country" left="2392" top="15456" logicalid="26" controlid="9" masterid="0" hint1="0" hint2="0" width="3704" height="1618" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000780e000052060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Country" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7194" top="11682" logicalid="27" controlid="10" masterid="0" hint1="0" hint2="0" width="3202" height="4274" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_adult]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="7" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="9996" y="15456" />
+              <point x="9996" y="13719" />
+              <point x="7494" y="13719" />
+              <point x="7494" y="11982" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7194" top="3009" logicalid="28" controlid="11" masterid="0" hint1="0" hint2="0" width="2998" height="4273" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_movie]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="7" sourceattachpoint="5" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="9792" y="3508" />
+              <point x="9792" y="5245" />
+              <point x="7494" y="5245" />
+              <point x="7494" y="6982" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8144" top="9732" logicalid="29" controlid="12" masterid="0" hint1="0" hint2="0" width="3000" height="2348" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_company]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="7" sourceattachpoint="16" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10844" y="11680" />
+              <point x="9644" y="11680" />
+              <point x="9644" y="10032" />
+              <point x="8444" y="10032" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2744" top="9732" logicalid="30" controlid="13" masterid="0" hint1="0" hint2="0" width="3000" height="2159" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_date]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="7" sourceattachpoint="15" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3044" y="11491" />
+              <point x="4244" y="11491" />
+              <point x="4244" y="10032" />
+              <point x="5444" y="10032" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2744" top="6318" logicalid="31" controlid="14" masterid="0" hint1="0" hint2="0" width="3000" height="2364" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_genre]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="7" sourceattachpoint="13" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3044" y="6717" />
+              <point x="4244" y="6717" />
+              <point x="4244" y="8382" />
+              <point x="5444" y="8382" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3607" top="3009" logicalid="32" controlid="15" masterid="0" hint1="0" hint2="0" width="2537" height="4273" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_language]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="7" sourceattachpoint="5" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4006" y="3508" />
+              <point x="4006" y="5245" />
+              <point x="5844" y="5245" />
+              <point x="5844" y="6982" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8144" top="7074" logicalid="33" controlid="16" masterid="0" hint1="0" hint2="0" width="3000" height="1608" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_runtime]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="7" sourceattachpoint="12" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10844" y="7473" />
+              <point x="9644" y="7473" />
+              <point x="9644" y="8382" />
+              <point x="8444" y="8382" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3845" top="11682" logicalid="34" controlid="17" masterid="0" hint1="0" hint2="0" width="2299" height="4274" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_country]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="7" sourceattachpoint="6" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4244" y="15456" />
+              <point x="4244" y="13719" />
+              <point x="5844" y="13719" />
+              <point x="5844" y="11982" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-7978</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2604</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>80</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="03329264-10b6-4a2c-afbb-6f7dce550f39">
+      <ID>Dim Company</ID>
+      <Name>Dim Company</Name>
+      <DimensionID>Dim Company</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b035b47d-25de-4eb7-b802-6c81c6362084">
+          <AttributeID>Company Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="78dd1593-fcee-4ce1-ad66-9a0fbb8c2a74">
+          <AttributeID>Production Companies</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="bb1ee8f2-ed2c-44d9-b24a-24413096041c">
+      <ID>Dim Language</ID>
+      <Name>Dim Language</Name>
+      <DimensionID>Dim Language</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="90de69b8-558a-4beb-ab0b-d460a1cc3c35">
+          <AttributeID>Language Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="309e3bae-f3f2-4e5f-97bf-330ccfe34483">
+          <AttributeID>Original Language</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="dbeea0b1-30b5-4db0-93d2-d7827b2959ec">
+      <ID>Dim Runtime</ID>
+      <Name>Dim Runtime</Name>
+      <DimensionID>Dim Runtime</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0abec0af-4078-40c6-be08-1f995ed32201">
+          <AttributeID>Runtime Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3f7a5d32-5c3b-46eb-a15c-df6a97bb4606">
+          <AttributeID>Runtime</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d58313e2-a0d6-4b22-ab9c-cd2bed4334c0">
+          <AttributeID>Runtime Range</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="5ac9022f-cd5e-456e-a92b-665d712fdd8b">
+      <ID>Dim Movie</ID>
+      <Name>Dim Movie</Name>
+      <DimensionID>Dim Movie</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4d614ce8-c9bd-4d27-92b1-8b7f6e58cbaa">
+          <AttributeID>Movie Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9b02a6b6-c718-474b-81dd-8d5897cc09a0">
+          <AttributeID>Title</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b4be17b0-6666-41a8-909b-4160e013ce70">
+          <AttributeID>Status</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1c743fb2-0864-4640-b50d-64fccf4d6b29">
+          <AttributeID>Homepage</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3307bfe4-5ac6-4853-a1dd-5b369487bdbc">
+          <AttributeID>Imdb Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="14602111-4609-46a5-8fc9-094a3f17fc0e">
+          <AttributeID>Tagline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d0f95317-5f4c-4a63-a3ac-53cb6f4209d3">
+          <AttributeID>Spoken Languages</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="1d667d76-e22e-4728-9678-e7ecae43bd63">
+      <ID>Dim Adult</ID>
+      <Name>Dim Adult</Name>
+      <DimensionID>Dim Adult</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5bfaf8cb-cde7-4290-806b-fa76a08a2c5f">
+          <AttributeID>Adult Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="69dfeff4-58c3-44ac-97b2-e22a6a15e84c">
+          <AttributeID>Adult</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="51a6f651-1c56-428a-be14-b5940e6bb996">
+      <ID>Dim Date</ID>
+      <Name>Dim Date</Name>
+      <DimensionID>Dim Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b0b6efd8-da62-4825-8450-0da64d01a5b9">
+          <AttributeID>Date Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ddffcdd1-2ee9-4c1e-885f-57ec6ae968ed">
+          <AttributeID>Release Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7c303ae8-9aa4-4fec-8baa-e99dee5e6777">
+          <AttributeID>Release Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f7009ac5-1a62-44d5-a168-1f407170b0b0">
+          <AttributeID>Release Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="216ae886-40d6-49da-8b9f-0906919825ce">
+          <AttributeID>Release Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="699d7ded-7060-45a0-bb6a-1a48f5d72db4">
+          <AttributeID>Release Year</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="4e50d4fe-1528-4d66-8ddc-16fe50a37c82">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="72665f62-2aae-411f-a6ed-d1405941cf2c">
+      <ID>Dim Genre</ID>
+      <Name>Dim Genre</Name>
+      <DimensionID>Dim Genre</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d6085b80-3262-45c1-86cd-c8527f283c87">
+          <AttributeID>Genre Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5b386f6c-56e7-4c04-9eea-f5cb0de63dd3">
+          <AttributeID>Genres</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="9fe7ca37-f8f5-4f82-a23e-0f86ef933702">
+      <ID>Dim Country</ID>
+      <Name>Dim Country</Name>
+      <DimensionID>Dim Country</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f3248635-a548-4bd2-a869-84e57324d6de">
+          <AttributeID>Country Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="efd2e453-975f-4855-b651-13029be4cc1a">
+          <AttributeID>Production Countries</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="3a36317a-0615-4373-9e8f-4d714555f0ed">
+      <ID>Fact</ID>
+      <Name>Fact</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="94a3172f-b5af-4bdd-9b06-ec91cbee5692">
+          <ID>Fact Id</ID>
+          <Name>Fact Id</Name>
+          <Source dwd:design-time-name="346135b1-512b-4e92-b439-95443d89f57b">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="61b13a35-454f-47d9-8128-a08bf5f2d4b8">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>fact_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fe3e3764-ad72-43d3-9a34-b1dc537a3975">
+          <ID>Vote Average</ID>
+          <Name>Vote Average</Name>
+          <Source dwd:design-time-name="f430974b-90aa-4ae3-8cdd-caffb009ec9f">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="98e5f593-e228-4458-aa78-f1fc5c14768f">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>vote_average</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="629076cf-c6b1-4f41-9a0a-d9d931c4724a">
+          <ID>Vote Count</ID>
+          <Name>Vote Count</Name>
+          <Source dwd:design-time-name="db87b63e-3dd3-4a78-99ee-2e4f3796bff4">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4230e1f0-324f-46ad-90ed-2824433526a3">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>vote_count</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f2077ff8-5896-4d87-9ef4-f4c3b60f722b">
+          <ID>Revenue</ID>
+          <Name>Revenue</Name>
+          <Source dwd:design-time-name="6647b5c7-b09e-4d43-93ee-f9f1d161cce3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7f29f7be-d3d3-403d-8e9a-20cf8a0119c9">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>revenue</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7204a50b-2dea-4eb6-86a6-a66c565161c4">
+          <ID>Budget</ID>
+          <Name>Budget</Name>
+          <Source dwd:design-time-name="2f56edad-5c94-4bb6-a1d7-277a83b64a30">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="975c8099-29af-4ead-b5ae-64362729c1a5">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>budget</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a8fa335b-dec8-4d10-9289-dd2f77a0877e">
+          <ID>Popularity</ID>
+          <Name>Popularity</Name>
+          <Source dwd:design-time-name="bb0edea1-1f07-4351-b57b-807acc281efd">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="23ed014b-ddc5-4f79-8fc9-63a13db3bbed">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>popularity</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="38ffc0df-c9f4-499b-8751-ba56800e7105">
+          <ID>Fact Count</ID>
+          <Name>Number of Movies</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="181c1aac-c83c-4d5f-a6e9-dcc2d627a4ee">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="7a953cd4-b40b-4fe7-9cd7-f22c8efb2114">
+              <TableID>dbo_Fact</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0b684f2a-654e-4cb4-a900-5b6b726abea6">
+          <CubeDimensionID>Dim Company</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="dbbf3558-954b-4912-adae-46e53f4c60f2">
+              <AttributeID>Company Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bdc19d44-70cd-4c1e-9369-e85d00729d02">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ddfb4f2a-30f7-442a-97dd-a36c58e2815d">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>company_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f171da97-ec07-4e84-a31e-96acf50283aa">
+          <CubeDimensionID>Dim Language</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3499d914-c734-458e-8b9c-d5cf5fe2bb9f">
+              <AttributeID>Language Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e71ff596-afd8-41ba-9f8a-f7870ad48b14">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fbc95034-735d-463f-9384-aebeaaf331ef">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>language_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="67e3b31f-ff62-42b2-8e24-aa3afd40b178">
+          <CubeDimensionID>Dim Runtime</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="37bf031a-1aa3-4a7a-b55b-34ed246fc950">
+              <AttributeID>Runtime Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="159742e1-85bb-4db0-bb34-f3d20bfcb8ea">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3b278681-e508-469e-b45a-150b74e4c2a3">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>runtime_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="420f7f9e-1d41-4b4f-9342-d80ab91eb34b">
+          <CubeDimensionID>Dim Movie</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1a79962a-2193-4f75-a435-074e941b2365">
+              <AttributeID>Movie Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="78fc955d-625a-4a9d-b08f-915c5a9c6bad">
+                  <DataType>Double</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b18262ad-d0bb-40f9-90c4-1780d0ac9672">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>movie_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5eebfd79-7e95-45d8-9faa-c3dbc646cc1e">
+          <CubeDimensionID>Dim Adult</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b2895ee8-d8e5-4fb2-8d95-2f42f7d19803">
+              <AttributeID>Adult Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="59e736af-5695-4b7e-905e-5939eb05e395">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="330a6b49-e240-45a4-9051-6a9fae6c4146">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>adult_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="eb20544f-0654-449e-8a70-3a6e6e82f3b7">
+          <CubeDimensionID>Dim Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="60fabf75-4d78-4b34-a8c0-0e659d21533e">
+              <AttributeID>Date Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c5a6128c-4dbf-45ec-8d25-ce298a6f4794">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="72ded27a-da92-4926-9bd1-c6c2e51a5238">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>date_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e0a69d8b-b4f5-4def-a274-7a5128d5e1ec">
+          <CubeDimensionID>Dim Genre</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fd29386c-d8e8-444a-a378-f624af228a93">
+              <AttributeID>Genre Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="116d0810-6b94-41d8-9482-2f54b826ebc5">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a0c20b16-fe33-4ddb-a4df-5bf45f74ed14">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>genre_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7e412908-efb6-40b2-b315-a0db010ef9f2">
+          <CubeDimensionID>Dim Country</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f4c0329f-604b-45d5-9c19-c0ff76b1867e">
+              <AttributeID>Country Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3efec451-188b-4a40-8a9f-58e633846731">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8cd46109-a733-443a-a0a9-34d828f67fab">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>country_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="c6a041aa-5cfc-4d68-a95a-f0bb43a795f8">
+    <DataSourceViewID>TMDB Movies</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="d021d382-261b-42bb-81b7-01956258a73e">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>    /*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;            
+CREATE DYNAMIC SET CURRENTCUBE.[Query1]
+ AS NONEMPTY([Dim Runtime].[Runtime Range].Children);            
+CREATE DYNAMIC SET CURRENTCUBE.[Query2]
+ AS ORDER(
+        TOPCOUNT(
+            [Dim Movie].[Title].Children, 
+            5, 
+            [Measures].[Revenue]
+        ), 
+        [Measures].[Revenue], 
+        DESC
+    );           
+CREATE DYNAMIC SET CURRENTCUBE.[Query3]
+ AS ORDER(
+        TOPCOUNT(
+            [Dim Movie].[Title].Children, 
+            10, 
+            [Measures].[Budget]
+        ), 
+        [Measures].[Popularity], 
+        DESC
+    );          
+CREATE DYNAMIC SET CURRENTCUBE.[Query4]
+ AS [Dim Date].[Release Quarter].Members;          
+CREATE DYNAMIC SET CURRENTCUBE.[Query5]
+ AS FILTER(
+        [Dim Movie].[Title].Children, 
+        [Measures].[Revenue] &gt; 1500000000
+    );          
+CREATE DYNAMIC SET CURRENTCUBE.[Query6]
+ AS GENERATE(
+        {
+            [Dim Language].[Original Language].&amp;[vi],
+            [Dim Language].[Original Language].&amp;[en],
+            [Dim Language].[Original Language].&amp;[cn]
+        },	
+        TOPCOUNT(
+            [Dim Language].[Original Language].CURRENTMEMBER * 
+            [Dim Movie].[Title].CHILDREN,
+            3,
+            [Measures].[Budget]
+        ) 
+    );        
+CREATE DYNAMIC SET CURRENTCUBE.[Query7]
+ AS GENERATE(
+        {[Dim Date].[Release Year].&amp;[2020] : [Dim Date].[Release Year].&amp;[2024]},
+        
+        TOPCOUNT(
+            FILTER(
+                [Dim Movie].[Title].Children,
+                LEFT([Dim Movie].[Title].CurrentMember.Name, 1) = "H"
+            ),
+            2,
+            [Measures].[Popularity]
+        )
+    );        
+CREATE DYNAMIC SET CURRENTCUBE.[Query8]
+ AS NONEMPTY(
+        CROSSJOIN(
+            [Dim Runtime].[Runtime Range].Children,
+            {
+                [Dim Language].[Original Language].&amp;[vi],
+                [Dim Language].[Original Language].&amp;[en],
+                [Dim Language].[Original Language].&amp;[cn]
+            }
+        )
+    );       
+CREATE DYNAMIC SET CURRENTCUBE.[Query9]
+ AS DRILLDOWNLEVEL(
+        { [Dim Date].[Date].[Release Year].&amp;[2020] : [Dim Date].[Date].[Release Year].&amp;[2024] }
+    );      
+CREATE DYNAMIC SET CURRENTCUBE.[Query10]
+ AS NONEMPTY(
+        CROSSJOIN(
+            {[Dim Date].[Release Year].&amp;[2020] : [Dim Date].[Release Year].&amp;[2023]},
+            {[Dim Language].[Original Language].&amp;[vi], [Dim Language].[Original Language].&amp;[en]}
+        )
+    ); 
+CREATE DYNAMIC SET CURRENTCUBE.[Query11]
+ AS {[Dim Date].[Release Year].&amp;[2020] : [Dim Date].[Release Year].&amp;[2024]} ;    
+CREATE DYNAMIC SET CURRENTCUBE.[Query12]
+ AS NONEMPTY(
+        CROSSJOIN(
+            {[Dim Date].[Release Year].&amp;[2021] : [Dim Date].[Release Year].&amp;[2024]}, 
+            [Dim Date].[Release Quarter].CHILDREN,
+            {
+                [Dim Language].[Original Language].&amp;[vi],
+                [Dim Language].[Original Language].&amp;[en]
+            }
+        )
+    );    
+CREATE DYNAMIC SET CURRENTCUBE.[Query13]
+ AS NONEMPTY(
+        CROSSJOIN(
+            {[Dim Date].[Release Year].&amp;[2021] : [Dim Date].[Release Year].&amp;[2024]}, 
+            [Dim Adult].[Adult].MEMBERS
+        )
+    );   
+CREATE DYNAMIC SET CURRENTCUBE.[Query14]
+ AS BOTTOMCOUNT(
+        FILTER(
+            NONEMPTY(
+                [Dim Movie].[Title].MEMBERS * 
+                {[Dim Date].[Release Year].&amp;[2022] : [Dim Date].[Release Year].&amp;[2024]}
+            ),
+            [Measures].[Budget] &gt; 0 AND [Measures].[Revenue] &gt; 0
+        ),
+        5,
+        [Measures].[Vote Count]
+    );  
+CREATE DYNAMIC SET CURRENTCUBE.[Query15]
+ AS ORDER(
+        FILTER(
+            [Dim Date].[Release Year].MEMBERS, 
+            [Measures].[Number of Movies] &gt;= 15000
+        ),
+        [Measures].[Budget],
+        DESC
+    );  
+CREATE DYNAMIC SET CURRENTCUBE.[Query16]
+ AS ORDER(
+        TOPCOUNT(
+            [Dim Movie].[Title].CHILDREN, 
+            10, 
+            [Measures].[Revenue]
+        ), 
+        [Measures].[Revenue], 
+        ASC
+    );  
+CREATE DYNAMIC SET CURRENTCUBE.[Query17]
+ AS TOPCOUNT(
+        [Dim Country].[Production Countries].[Production Countries].Members,
+        5,
+        [Measures].[Revenue]
+    );  
+CREATE DYNAMIC SET CURRENTCUBE.[Query18]
+ AS TOPCOUNT(
+        [Dim Date].[Release Month].[Release Month].members,
+        2,
+        [Measures].[Revenue]
+    );  
+CREATE DYNAMIC SET CURRENTCUBE.[Query19]
+ AS ORDER(
+        [Dim Country].[Production Countries].MEMBERS - 
+        [Dim Country].[Production Countries].[All], 
+        [Measures].[Revenue], 
+        DESC
+    );  
+CREATE DYNAMIC SET CURRENTCUBE.[Query20]
+ AS GENERATE(
+        {[Dim Date].[Release Year].&amp;[2022] : [Dim Date].[Release Year].&amp;[2024]},	
+        
+        TOPCOUNT(
+            FILTER(
+                [Dim Date].[Release Year].CURRENTMEMBER * [Dim Movie].[Title].CHILDREN,
+                LEFT([Dim Movie].[Title].CURRENTMEMBER.NAME, 1) = 'D'
+            ),
+            3,
+            [Measures].[Vote Count]
+        )
+    );  
+CREATE DYNAMIC SET CURRENTCUBE.[Query21]
+ AS DRILLDOWNLEVEL(
+        {
+            [Dim Date].[Hierarchy].[Release Year].&amp;[2023] : 
+            [Dim Date].[Hierarchy].[Release Year].&amp;[2024]
+        }
+    );  
+CREATE DYNAMIC SET CURRENTCUBE.[Query22]
+ AS (
+        {[Dim Date].[Release Year].&amp;[2021] : [Dim Date].[Release Year].&amp;[2023]},
+        {
+            [Dim Language].[Original Language].&amp;[ja],
+            [Dim Language].[Original Language].&amp;[en]
+        }
+    );  
+CREATE DYNAMIC SET CURRENTCUBE.[Query23]
+ AS ORDER(
+        [Dim Country].[Production Countries].MEMBERS,
+        [Measures].[Number of Movies],
+        DESC
+    );  
+CREATE DYNAMIC SET CURRENTCUBE.[Query24]
+ AS NONEMPTY(
+        {[Dim Date].[Release Year].&amp;[2023] : [Dim Date].[Release Year].&amp;[2024]} *
+        [Dim Date].[Release Quarter].CHILDREN *
+        {
+            [Dim Language].[Original Language].&amp;[en],
+            [Dim Language].[Original Language].&amp;[cn]
+        }
+    ); </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>
