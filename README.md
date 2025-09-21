@@ -47,7 +47,7 @@ The **SQL Server Management Studio (SSMS)** was used to design and manage the **
 
 | Architecture                                            | ERD Diagram                                   | Fact Table                                          |
 | ------------------------------------------------------- | --------------------------------------------- | --------------------------------------------------- |
-| ![SSMS Architecture](../Assets/SSMS/SSMS_architecture.png) | ![SSMS Diagram](../Assets/SSMS/SSMS_diagram.png) | ![SSMS Fact Table](../Assets/SSMS/SSMS_Fact_table.png) |
+| ![SSMS Architecture](Assets/SSMS/SSMS_architecture.png) | ![SSMS Diagram](Assets/SSMS/SSMS_diagram.png) | ![SSMS Fact Table](Assets/SSMS/SSMS_Fact_table.png) |
 
 ---
 
@@ -63,11 +63,11 @@ The **SSIS project (`SSIS_TMDBMovies`)** handles the ETL pipeline:
 
 | Overview                                 | Main Pipeline                                             |
 | ---------------------------------------- | --------------------------------------------------------- |
-| ![SSIS Overview](../Assets/SSIS/SSIS_1.png) | ![SSIS Main Pipeline](../Assets/SSIS/SSIS_pipeline_main.png) |
+| ![SSIS Overview](Assets/SSIS/SSIS_1.png) | ![SSIS Main Pipeline](Assets/SSIS/SSIS_pipeline_main.png) |
 
 | Data Flow 1                                        | Data Flow 2                                        | Control Flow                                 |
 | -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------- |
-| ![SSIS Pipeline 1](../Assets/SSIS/SSIS_pipeline1.png) | ![SSIS Pipeline 2](../Assets/SSIS/SSIS_pipeline2.png) | ![SSIS Control Flow](../Assets/SSIS/SSIS_4.png) |
+| ![SSIS Pipeline 1](Assets/SSIS/SSIS_pipeline1.png) | ![SSIS Pipeline 2](Assets/SSIS/SSIS_pipeline2.png) | ![SSIS Control Flow](Assets/SSIS/SSIS_4.png) |
 
 ---
 
@@ -83,11 +83,11 @@ The **SSAS project (`SSAS_TMDBMovies`)** builds OLAP cubes for multidimensional 
 
 | Architecture                                            | Diagram                                       | Dimensions                                          |
 | ------------------------------------------------------- | --------------------------------------------- | --------------------------------------------------- |
-| ![SSAS Architecture](../Assets/SSAS/SSAS_architecture.png) | ![SSAS Diagram](../Assets/SSAS/SSAS_diagram.png) | ![SSAS Dimensions](../Assets/SSAS/SSAS_dimensions.png) |
+| ![SSAS Architecture](Assets/SSAS/SSAS_architecture.png) | ![SSAS Diagram](Assets/SSAS/SSAS_diagram.png) | ![SSAS Dimensions](Assets/SSAS/SSAS_dimensions.png) |
 
 | Date Hierarchy                                              | Overview                                        | Query & Calculations                                                |
 | ----------------------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------- |
-| ![SSAS Date Hierarchy](../Assets/SSAS/SSAS_date_hierarchy.png) | ![SSAS Overview](../Assets/SSAS/SSAS_overview.png) | ![SSAS Query Calculations](../Assets/SSAS/SSAS_query_calculations.png) |
+| ![SSAS Date Hierarchy](Assets/SSAS/SSAS_date_hierarchy.png) | ![SSAS Overview](Assets/SSAS/SSAS_overview.png) | ![SSAS Query Calculations](Assets/SSAS/SSAS_query_calculations.png) |
 
 ---
 
@@ -113,7 +113,7 @@ The **SSRS project (`SSRS_TMDBMovies`)** delivers interactive reports for decisi
 
 | Report 1                                       | Report 2                                       | Report 3                                       |
 | ---------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
-| ![SSRS Report 1](../Assets/SSRS/SSRS_report1.png) | ![SSRS Report 2](../Assets/SSRS/SSRS_report2.png) | ![SSRS Report 3](../Assets/SSRS/SSRS_report3.png) |
+| ![SSRS Report 1](Assets/SSRS/SSRS_report1.png) | ![SSRS Report 2](Assets/SSRS/SSRS_report2.png) | ![SSRS Report 3](Assets/SSRS/SSRS_report3.png) |
 
 ---
 
@@ -128,7 +128,7 @@ In addition to SSRS, the project includes **Excel** and **Power BI** dashboards 
 
 | Excel Report                                    | Power BI Dashboard                                   |
 | ----------------------------------------------- | ---------------------------------------------------- |
-| ![Excel Report](../Assets/Report/Excel_report.png) | ![Power BI Report](../Assets/Report/PowerBI_report.png) |
+| ![Excel Report](Assets/Report/Excel_report.png) | ![Power BI Report](Assets/Report/PowerBI_report.png) |
 
 ---
 
@@ -186,3 +186,4 @@ As an extension, machine learning was applied to **predict movie revenues**.
 * Created **OLAP cubes with SSAS** for multidimensional analysis
 * Developed **reports and dashboards** with SSRS, Excel, and Power BI
 * Extended with **Machine Learning (SVR model, 94% accuracy)**
+
