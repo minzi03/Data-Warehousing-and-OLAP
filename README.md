@@ -1,4 +1,4 @@
-# 🎥 Data Warehousing and OLAP Project
+# 🎥 Movie-Data-Warehouse-ETL-OLAP Project
 
 ## 📌 Overview
 
@@ -186,4 +186,5 @@ As an extension, machine learning was applied to **predict movie revenues**.
 * Created **OLAP cubes with SSAS** for multidimensional analysis
 * Developed **reports and dashboards** with SSRS, Excel, and Power BI
 * Extended with **Machine Learning (SVR model, 94% accuracy)**
+
 
